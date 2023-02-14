@@ -1,0 +1,322 @@
+@media screen and (max-width: 1199px) {
+    .addressSection .info-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .addressSection .info-block .item.map {
+        grid-row: span 1;
+        height: 350px;
+    }
+    .reviews .reviewsBlock .info-block .item.slick-active {
+        opacity: 1;
+    }
+    .newsSection .newsBlock .title__main {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .btnA {
+        padding: 12px 20px;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .banner .bannerBlock {
+        padding: 25px;
+    }
+    .banner {
+        padding-bottom: 0;
+    }
+    .aboutUs .aboutUsBlock .info-block {
+        font-size: 14px;
+        gap: 50px;
+    }
+    .aboutUs .aboutUsBlock .info-block .item {
+        grid-template-columns: repeat(1, 2fr);
+        gap: 20px;
+    }
+    c
+    .banner .bannerBlock h1 {
+        font-size: 48px;
+    }
+    .title__main {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    section {
+        padding: 70px 0;
+    }
+    .banner .bannerBlock {
+        min-height: 280px;
+    }
+    .news-item-section .news-item-block .dateMain,
+    .blog-item-section .blog-item-block .dateMain,
+    .blog-item-section .blog-item-block .readMore {
+        padding: 12px 24px;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    .blog-item-section .blog-item-block .readMore {
+        margin: 25px 0 0;
+    }
+    .news-item-section .news-item-block .info-block .titleNews,
+    .blog-item-section .blog-item-block .info-block .titleNews {
+        margin-bottom: 15px;
+    }
+    .blog-item-section .blog-item-block .info-block {
+        padding: 25px 30px;
+    }
+    .blog-item-section .blog-item-block .info-block .item {
+        display: flex;
+        flex-direction: column;
+    }
+    .price .priceBlock .item {
+        gap: 50px;
+    }
+    .aboutUs .aboutUsBlock .info-block .item:nth-child(2n) .text {
+        order: 1;
+    }
+    .aboutUs .aboutUsBlock .info-block .item:nth-child(2n) .imgBlock {
+        order: 2;
+    }
+    .session .sessionBlock .info-block .item {
+        padding: 25px;
+    }
+    .session .sessionBlock .info-block {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+    .session .sessionBlock .info-block .item {
+        padding: 25px;
+        font-size: 20px;
+    }
+    .addressSection .info-block {
+        column-gap: 24px;
+    }
+    .aboutUs .aboutUsBlock .info-block .item .imgBlock {
+        display: flex;
+    }
+    .aboutUs .aboutUsBlock .info-block .item .imgBlock img {
+        margin: 0 auto;
+    }
+    .news-item-section .news-item-block .info-block,
+    .blog-item-section .blog-item-block .info-block {
+        gap: 50px;
+    }
+    .footer.line {
+        margin: 0 auto;
+    }
+    .newsSection .info-block {
+        gap: 14px;
+    }
+    .newsSection .newsBlock .title__main {
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .addressSection .info-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .price .priceBlock .item {
+        grid-template-columns: 1fr;
+    }
+    .banner .bannerBlock h1 {
+        font-size: 32px;
+    }
+    .session .sessionBlock .info-block .item {
+        font-size: 18px;
+        min-height: 160px;
+    }
+    .reviews .reviewsBlock .info-block {
+        margin: 0 25px;
+    }
+    header .header nav ul {
+        gap: 20px;
+    }
+    .newsSection .newsBlock .title__main {
+        margin-bottom: 15px;
+    }
+    .newsSection .info-block {
+        gap: 10px;
+    }
+    .news-item-section .news-item-block .info-block .item {
+        margin: 0 5px;
+    }
+}
+@media screen and (max-width: 510px) {
+    header .header nav ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+    .price .item .priceInfo {
+        gap: 20px;
+    }
+    .price .item .priceInfo .service {
+        font-size: 18px;
+    }    
+    .banner .bannerBlock h1 {
+        font-size: 24px;
+    }
+    .title__main {
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+    .banner .bannerBlock span {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .title__block::before {
+        left: -50px;
+    }
+    .title__block::after {
+        right: -50px;
+    }
+    .title__block.white::after,
+    .title__block.white::before,
+    .title__block::after,
+    .title__block::before {
+        width: 18px;
+        height: 9px;
+        top: 50%;
+    }
+    .session .sessionBlock .info-block {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    .session .sessionBlock .info-block .item {
+        padding: 15px;
+        font-size: 18px;
+        min-height: 180px;
+    }
+    .banner .bannerBlock {
+        min-height: 180px;
+    }
+    .aboutUs .aboutUsBlock .info-block .item .text .title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .aboutUs .aboutUsBlock .info-block .item .text {
+        padding: 0;
+    }
+    .news-item-section .news-item-block .info-block,
+    .blog-item-section .blog-item-block .info-block {
+        gap: 20px;
+    }
+    .news-item-section .news-item-block .info-block .text {
+        font-size: 14px;
+    }
+    .newsSection .info-block .item .titleNews {
+        font-size: 18px;
+    }
+    .news-item-section .news-item-block .dateMain, .blog-item-section .blog-item-block .dateMain, .blog-item-section .blog-item-block .readMore {
+        padding: 6px 12px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .reviews .reviewsBlock .info-block .item {
+        padding: 20px;
+    }
+    .session .sessionBlock .info-block .item:first-of-type {
+        border-bottom: 0;
+    }
+    .price .priceBlock .item .imgBlock img {
+        margin-bottom: 15px;
+    }
+    .price .priceBlock .item .imgBlock span {
+        font-size: 18px;
+    }
+    .blog-item-section .blog-item-block .info-block {
+        padding: 15px;
+    }
+}  
+@media screen and (max-width: 440px) {
+    .blog-item-section .blog-item-block .info-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-item-section .blog-item-block .info-block .item.img {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .blog-item-section .blog-item-block .info-block .titleNews {
+        font-size: 20px;
+    }
+    .blog-item-section .blog-item-block .info-block .text {
+        font-size: 14px;
+    }
+    .blog-item-section .blog-item-block .info-block {
+        margin-bottom: 15px;
+    }
+    .reviews .reviewsBlock .info-block .item .text p {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .news-item-section .news-item-block .info-block .titleNews, .blog-item-section .blog-item-block .info-block .titleNews {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .newsSection .info-block{
+        grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+        grid-auto-rows: minmax(200px, auto);
+    }
+    .price .item .priceInfo .service .name {
+        font-size: 14px;
+    }
+    .addressSection .info-block .item .info {
+        gap: 10px;
+    }
+    .addressSection .info-block .item:not(.map) {
+        gap: 20px;
+    }
+    .addressSection .info-block .item .address {
+        font-size: 20px;
+    }
+    .news-item-section .news-item-block .title__main {
+        font-size: 22px;
+    }
+    .blog-item-section .blog-item-block .info-block .titleNews {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 350px) {
+    header .header nav ul {
+        flex-direction: column;
+        gap: 7px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .price .priceBlock .item {
+        gap: 20px;
+    }
+    .aboutUs .aboutUsBlock .info-block .item {
+        gap: 10px;
+    }
+    .price .item .priceInfo .service {
+        font-size: 16px;
+    }
+    .footer {
+        font-size: 14px;
+    }
+    .news-item-section .news-item-block .info-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .news-item-section .news-item-block .info-block .item.img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .title__block::before {
+        left: -38px;
+    }
+    .title__block::after {
+        right: -38px;
+    }
+    
+}
